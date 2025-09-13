@@ -24,7 +24,7 @@ function FOOD() {
            
               <center style={{margin:"10px"}}> name :<strong> {item.strMeal} </strong></center>
 
-              <button className='pay-btn'><a href={item.strYoutube} style={{ color: "black" }}>Click me </a></button>
+              <button className='pay-btn'><a href={item.strSource} style={{ color: "black" }}>Click me </a></button>
           </div>
 
           </div>

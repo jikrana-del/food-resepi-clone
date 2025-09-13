@@ -38,9 +38,9 @@ function Header() {
                               <div className='LightDark show'>{LightDarkMode ? <MdLightMode onClick={HendelLightMode} /> : <MdDarkMode onClick={HendelDarkMode} />} </div>
                               <button type="button" className="btn btn-primary position-relative">
                                     <NavLink className='icon bag-icon' to='/bag'><BsFillBagFill /></NavLink>
-                                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                                           {BagData.length}
-                                          <span class="visually-hidden">unread messages</span>
+                                          <span className="visually-hidden">unread messages</span>
                                     </span>
                               </button>
                               <NavLink className='icon show' to='/person'><IoPersonOutline /></NavLink>
