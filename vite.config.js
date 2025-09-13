@@ -12,7 +12,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.NODE_ENV === "production" ? "/food-resepi-clone/" : "/",
+  base: '/food-resepi-clone/',
+  // base: process.env.NODE_ENV === "production" ? "/food-resepi-clone/" : "/",
   //  '/food-resepi-clone/',  // repo name yahin use karein
 
 });
